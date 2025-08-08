@@ -19,13 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(() => {
                 // SI EL LOGIN ES EXITOSO:
                 // Redirigir a la página de 'validado.html' dentro de la carpeta 'public'.
-                window.location.href = '../LoginFuncional - Firebase/assets/app/pages/validado.html';
+                window.location.href = '/assets/app/pages/validado.html';
             })
             .catch((error) => {
                 // SI EL LOGIN FALLA:
                 // Redirigir a la página de 'error.html' dentro de la carpeta 'public',
                 // pasando el código de error en la URL.
-                window.location.href = '../LoginFuncional - Firebase/assets/app/pages/error.html?code=' + encodeURIComponent(error.code);
+                window.location.href = '/assets/app/pages/error.html?code=' + encodeURIComponent(error.code);
             });
     });
 });
