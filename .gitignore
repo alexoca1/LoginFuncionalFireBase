@@ -1,0 +1,17 @@
+# Firebase config - ¡CRÍTICO! NO SUBIR A GITHUB
+assets/app/js/config/firebase-config.js
+
+# Archivos de desarrollo y sistema
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Archivos de editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

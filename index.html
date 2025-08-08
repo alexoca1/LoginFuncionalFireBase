@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../LoginFuncional - Firebase/assets/app/css/index.css">
+    <title>Login</title>
+   
+</head>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+
+<script src="../LoginFuncional - Firebase/assets/app/js/config/firebase-config.js"></script>
+<script src="../LoginFuncional - Firebase/assets/app/js/auth/login.js"></script>
+
+<body>
+    <div class="main-container">
+        <div class="containerS">
+            <div class="left-container">
+                <h1>Inicia sesion para poder disfrutar todo el contenido</h1>
+                <h3 class="subtitle">Es gratis y rapido</h3>
+            </div>
+            <div class="right-container">
+                <div class="sub-container">
+                    <div class="logo-container">
+                        <h2 class="logo">Inicia Sesion</h2>
+                    </div>
+                    <div id="error-message" class="error-message" style="display: none;"></div>
+                    <form id="loginForm">
+                        <input type="email" placeholder="Ingrese su correo electronico" class="email" autocomplete="email">                        
+                       <input type="password" placeholder="Ingrese su contraseña" class="password" autocomplete="current-password">
+                        <button type="submit" class="submit-button">Ingresar</button>
+                    </form>
+                </div>
+            </div>
+            <footer>
+                <h2 class="footer-text">Diseño y desarrollo web.</h2>
+            </footer>
+        </div>
+    </div>
+
+    
+</body>
+</html>

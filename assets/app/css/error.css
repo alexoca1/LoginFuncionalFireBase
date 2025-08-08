@@ -1,0 +1,62 @@
+/* Fondo y contenedor principal */
+.error-container {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+    
+/* Tarjeta de error */
+.error-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+    
+/* Icono de error */
+.error-icon {
+    font-size: 60px;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+    
+/* Título de error */
+.error-title {
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+    
+/* Mensaje de error */
+.error-message {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+    
+/* Botón de regreso */
+.back-button {
+    background-color: #6e8efb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    max-width: 300px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+    
+.back-button:hover {
+    background-color: #5a7df4;
+}
