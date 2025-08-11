@@ -14,11 +14,11 @@ Este proyecto es una implementación limpia y funcional de un sistema de autenti
 
 Puedes probar el flujo de inicio de sesión con los siguientes usuarios de demostración, que han sido creados en el proyecto de Firebase:
 
--   **Email:** `usuario1@test.com`
--   **Contraseña:** `123456`
+-   **Email:** `alexander@gmail.com`
+-   **Contraseña:** `abc123`
 
--   **Email:** `usuario2@test.com`
--   **Contraseña:** `123456`
+-   **Email:** `luiza@gmail.com`
+-   **Contraseña:** `123abc`
 
 ---
 
